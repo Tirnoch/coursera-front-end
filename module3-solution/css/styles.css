@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar-brand{
+  font-size: x-large;
+}
+.navbar-nav {
+  background-color: #8f8f8f49;
+}
+.divider {
+  border: 1px solid #999;
+}
+li {
+  text-align: center;
+}
+.row {
+  width: 98%;
+  margin: 0 1% 1%;
+  display: flex;
+  flex-flow: row wrap;
+
+
+ 
+}
+[class*=col-] {
+  background-color: darkgray;
+  margin-bottom: 1%;
+  border: 5px solid white;
+}
+/*.navbar-toggle:hover:active {
+}*/
